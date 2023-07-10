@@ -1,0 +1,132 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #1db954;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Featured Playlists Section */
+.featured-playlists {
+  padding: 40px 0;
+}
+
+.featured-playlists h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.playlist-card {
+  text-align: center;
+}
+
+.playlist-card img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.playlist-card h3 {
+  font-size: 18px;
+}
+
+/* Songs Section */
+.songs,
+.most-played {
+  padding: 40px 0;
+}
+
+.songs h2,
+.most-played h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.song-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.song-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.add-to-playlist {
+  background-color: #1db954;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
